@@ -1,4 +1,4 @@
-🧠 Dementia Memory App
+🧠 RemMMe--> Dementia Memory App
 
 A smart AI-powered app designed to assist dementia patients in memory recall and cognitive engagement.
 
