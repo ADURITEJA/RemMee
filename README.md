@@ -1,16 +1,54 @@
-# dementia_memory_app
+🧠 Dementia Memory App
 
-A new Flutter project.
+A smart AI-powered app designed to assist dementia patients in memory recall and cognitive engagement.
 
-## Getting Started
+📌 Overview
 
-This project is a starting point for a Flutter application.
+Dementia affects millions worldwide, making memory loss and daily routines challenging. Our app enhances memory recall and engagement through AI-powered features, personalized reminders, and interactive games, helping both patients and caregivers.
 
-A few resources to get you started if this is your first Flutter project:
+🚀 Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+👁️ Memory Recall & AI Word Game
+	•	Patients can record memories via speech or text, which the app analyzes using BERT NLP.
+	•	AI generates interactive word games based on past memories to stimulate cognitive recall.
+	•	Real-time feedback and hints encourage active participation.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+📊 Memory Analysis & 3D Pie Chart
+	•	Extracted keywords from memory texts are analyzed using BERT & Google ML Kit.
+	•	Memories are categorized as Strongly Remembered, Moderately Remembered, Weakly Remembered, or Forgotten.
+	•	A 3D Pie Chart provides a visual representation of memory retention trends.
+
+⏰ Personalized Schedules & Reminders
+	•	Users can set and manage schedules, ensuring daily routines are followed.
+	•	Priority alerts notify patients about important tasks and events.
+	•	Caregivers can remotely assign tasks, improving care coordination.
+
+🔔 Smart Notifications
+	•	Uses Flutter Local Notifications to remind patients about daily activities.
+	•	Custom time-based and priority-based alerts enhance routine management.
+
+🛡️ Data Security & Privacy
+	•	All user data is stored locally in SQLite, ensuring no external data breaches.
+	•	AES encryption secures stored memory texts to maintain privacy.
+	•	No cloud dependency avoids security vulnerabilities.
+
+⸻
+
+🛠️ Tech Stack
+
+📱 Frontend:
+	•	Flutter (Dart) – Cross-platform UI framework for a smooth and intuitive experience.
+
+🧠 AI & NLP:
+	•	BERT (Bidirectional Encoder Representations from Transformers) – Used for keyword extraction and NLP analysis of patient memories.
+	•	Google ML Kit – Entity extraction for memory categorization and cognitive analysis.
+
+💾 Database:
+	•	SQLite – Stores patient memories, schedules, and caregiver tasks locally.
+	•	Shared Preferences – Stores user settings and preferences securely.
+
+🔔 Notifications & Alerts:
+	•	Flutter Local Notifications – Used for reminders and alerts with custom time-based scheduling.
+
+📊 Data Visualization:
+	•	Syncfusion Flutter Charts – Generates interactive 3D pie charts for memory analysis reports.
